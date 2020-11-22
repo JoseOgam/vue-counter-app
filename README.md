@@ -1,4 +1,4 @@
-# hello-world
+# Vue Counter App
 
 ## Project setup
 ```
