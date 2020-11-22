@@ -4,6 +4,8 @@
     <h3>count : {{count}}</h3>
     <button @click= "Increment">Increment</button>
     <button @click= "Decrement">Decrement</button>
+    <button @click="Reset">Reset</button>
+
 
   </div>
 </template>
@@ -25,6 +27,9 @@ export default {
     },
     Decrement(){
       this.count -=1
+    },
+    Reset(){
+      this.count = 0
     }
   }
 
